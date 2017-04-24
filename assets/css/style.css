@@ -9,7 +9,8 @@ body {
 }
 
 header {
-  background: #d21034;
+  background: #ffffff;
+  margin: 0 auto;
 }
 
 h1 {
@@ -20,12 +21,15 @@ h1 {
   color: #eee;
   text-align: center;
   background: #4aaaa5;
-  width: 20%
+  width: 16%;
+  position: relative;
+  left: 260px;
 }
 
 h2 {
   font-size: 24px;
   color: #4aaaa5;
+  margin-left: 20px;
 }
 
 a {
@@ -41,18 +45,25 @@ a {
 #contact-info,
 #bio-image {
   float: left;
+  background: #ffffff;
 }
 
 #main-bio {
-  width: 70%;
+  width: 75%;
 }
 
 #contact-info {
-  width: 30%;
+  width: 25%;
 }
 
 #bio-image {
   width: 318px;
   height: 226px;
   margin-right: 20px;
+  margin-left: 20px;
+}
+
+.pclass{
+  margin-right: 20px;
+  margin-left: 20px;
 }
